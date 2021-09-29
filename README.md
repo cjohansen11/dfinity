@@ -14,7 +14,8 @@ Verify that MongoDB is installed and running on your system
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to your .env file.
+Copy the current .env.example file, rename to .env, and chance PORT to desired port and MONGO_DEV to desired mongo database route.
 
 `PORT`
 
