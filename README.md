@@ -1,3 +1,35 @@
+# Pet Database - A CRUD/RESTful API - DFINITY assessment.
+
+Basic CRUD/RESTful API.
+
+Utilizing Nodejs, Mongo/Mongoose, and Express
+
+## Installation
+
+Verify that MongoDB is installed and running on your system
+
+```bash
+  npm i
+```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`PORT`
+
+`MONGO_DEV`
+
+## Usage/Examples
+
+Start the server then use your favorite API software to test the various routes
+
+Then run src/index.js
+
+```javascript
+npm start
+```
+
 ## API Reference
 
 #### Get all pets
@@ -52,3 +84,7 @@ Returns a 200 status on successful PUT.
 | `name`    | `string` | **Required**. What's your pet's name?                                                                             |
 
 Returns a 200 status on successful DELETE.
+
+## Authors
+
+- [@cjohansen11](https://www.github.com/cjohansen11)
